@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WeatherTestApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_main_fragment">Hello MAIN fragment</string>
+    <!-- MAIN FRAGMENT -->
+    <string name="hello_splash_fragment">Hello SPLASH fragment</string>
+    <string name="hello_five_day_fragment">Hello LONG FORECAST Fragment</string>
+    <string name="hello_detailed_fragment">Hello DETAILED FORECAST Fragment</string>
+    <string name="WEATHER_FORECAST">Weather Forecast</string>
+    <string name="ENTER_CITY_NAME">Enter City Name</string>
+    <string name="PRESSURE">Pressure: </string>
+    <string name="TEMPERATURE">Temperature: </string>
+    <string name="HUMIDITY">Humidity: </string>
+    <string name="SPEED_OF_WIND">Wind\'s speed: </string>
+    <string name="DETAILS">Details</string>
+    <string name="FORECAST">Forecast</string>
+    <string name="WEATHER_FORECAST_IS_">Weather forecast is loading,\n please wait...</string>
+
+    <!-- DETAILED FRAGMENT -->
+    <string name="WEATHER">Weather</string>
+    <string name="LOCATION"><u>Location</u>: </string>
+    <string name="TEMPERATURE_UNDERLINED"><u>Temperature</u>: </string>
+    <string name="CURRENT_TEMPERATURE">Current: </string>
+    <string name="FEELS_LIKE">Feels like: </string>
+    <string name="MAX_DAY_TEMP">Max daily temp: </string>
+    <string name="MIN_DAY_TEMP">Min daily temp: </string>
+    <string name="WIND"><u>Wind</u>: </string>
+    <string name="SPEED">Speed: </string>
+    <string name="DIRECTION">Direction: </string>
+    <string name="OTHER"><u>Other</u>: </string>
+</resources>

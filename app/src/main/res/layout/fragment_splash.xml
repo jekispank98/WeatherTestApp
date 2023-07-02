@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.SplashFragment">
+
+    <TextView
+        android:id="@+id/tv_loading_label"
+        style="@style/ButtonTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="@string/WEATHER_FORECAST_IS_"
+        android:textColor="@color/potato_red"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/senior_prog_bar"
+        android:layout_width="106dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/potato_red" />
+
+    <ProgressBar
+        android:id="@+id/middle_prog_bar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/potato_red" />
+
+    <ProgressBar
+        android:id="@+id/junior_prog_bar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/potato_red" />
+
+</FrameLayout>
